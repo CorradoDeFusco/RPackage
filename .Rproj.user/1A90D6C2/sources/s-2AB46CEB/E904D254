@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580558834720.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2588651598",
+    "id" : "E904D254",
+    "lastKnownWriteTime" : 1580054742,
+    "last_content_update" : 1580054742,
+    "path" : "~/MyPackage/R/weightedaverage.R",
+    "project_path" : "R/weightedaverage.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
