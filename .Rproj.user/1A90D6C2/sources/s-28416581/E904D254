@@ -2,18 +2,18 @@
     "collab_server" : "",
     "contents" : "",
     "created" : 1580558834720.000,
-    "dirty" : true,
+    "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
     "hash" : "0",
     "id" : "E904D254",
-    "lastKnownWriteTime" : 1580568495,
-    "last_content_update" : 1580568601631,
+    "lastKnownWriteTime" : 1580578623,
+    "last_content_update" : 1580578623191,
     "path" : "~/MyPackage/R/weightedaverage.R",
     "project_path" : "R/weightedaverage.R",
     "properties" : {
-        "cursorPosition" : "22,0",
-        "scrollLine" : "14"
+        "cursorPosition" : "5,9",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [

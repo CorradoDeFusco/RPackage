@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "3097250553",
     "id" : "652B708C",
-    "lastKnownWriteTime" : 1580576601,
-    "last_content_update" : 1580576601999,
+    "lastKnownWriteTime" : 1580579361,
+    "last_content_update" : 1580579361070,
     "path" : "~/MyPackage/R/TermFrequency.R",
     "project_path" : "R/TermFrequency.R",
     "properties" : {
-        "cursorPosition" : "8,0",
+        "cursorPosition" : "7,2",
         "scrollLine" : "0"
     },
     "read_only" : false,

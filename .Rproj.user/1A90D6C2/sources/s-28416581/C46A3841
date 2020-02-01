@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1414983821",
+    "hash" : "0",
     "id" : "C46A3841",
-    "lastKnownWriteTime" : 1580576791,
-    "last_content_update" : 1580576791030,
+    "lastKnownWriteTime" : 1580579411,
+    "last_content_update" : 1580579411675,
     "path" : "~/MyPackage/R/adjustedfinaldegree.R",
     "project_path" : "R/adjustedfinaldegree.R",
     "properties" : {
-        "cursorPosition" : "53,0",
-        "scrollLine" : "42"
+        "cursorPosition" : "33,0",
+        "scrollLine" : "28"
     },
     "read_only" : false,
     "read_only_alternatives" : [

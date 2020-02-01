@@ -1,11 +1,9 @@
-#'
-#'ksahdkash
-#'@param DfDSE
-#'@param DfDSE
-#'@return result
-#'@export
-#'
-#'
+require(plotly)
+library(plotly)
+
+DfDSE <- read.csv("https://raw.githubusercontent.com/unimi-dse/c34a5d0e/master/gradecalculator/FileDse.csv")
+Students<-unique(DfDSE$Student)
+
 weightedaverage<- function (DfDSE, Students){
 
   result<- vector()
@@ -20,3 +18,13 @@ weightedaverage<- function (DfDSE, Students){
   }
   return(result)
 }
+
+
+p <- plot_ly(
+  x = Students,
+  y = weightedaverage(DfDSE, Students),
+  name = "SF Zoo",
+  type = "bar"
+)
+
+p

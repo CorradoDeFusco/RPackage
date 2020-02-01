@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580579681360.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1458780445",
+    "id" : "2C7940A",
+    "lastKnownWriteTime" : 1580579678,
+    "last_content_update" : 1580579678,
+    "path" : "~/MyPackage/man/adjustedfinaldegree.Rd",
+    "project_path" : "man/adjustedfinaldegree.Rd",
+    "properties" : {
+    },
+    "read_only" : true,
+    "read_only_alternatives" : [
+        "R/adjustedfinaldegree.R"
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
