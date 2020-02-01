@@ -1,9 +1,17 @@
+#'
+#'ksahdkash
+#'@param DfDSE
+#'@param DfDSE
+#'@return result
+#'@export
+#'
+#'
 weightedaverage<- function (DfDSE, Students){
 
   result<- vector()
 
   Cfus<-unique(DfDSE$Student)
-  
+
   for(Student in Students){
     i <- DfDSE$Student == Student
     scores<-DfDSE$Score[i]

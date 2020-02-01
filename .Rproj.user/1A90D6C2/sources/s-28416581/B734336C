@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580577667034.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B734336C",
+    "lastKnownWriteTime" : 1580577745,
+    "last_content_update" : 1580577745700,
+    "path" : "~/MyPackage/R/prova.R",
+    "project_path" : "R/prova.R",
+    "properties" : {
+        "cursorPosition" : "0,5",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

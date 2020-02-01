@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580576661466.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1414983821",
+    "id" : "C46A3841",
+    "lastKnownWriteTime" : 1580576791,
+    "last_content_update" : 1580576791030,
+    "path" : "~/MyPackage/R/adjustedfinaldegree.R",
+    "project_path" : "R/adjustedfinaldegree.R",
+    "properties" : {
+        "cursorPosition" : "53,0",
+        "scrollLine" : "42"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

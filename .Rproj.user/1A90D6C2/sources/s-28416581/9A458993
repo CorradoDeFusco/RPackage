@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580576280011.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "342240938",
+    "id" : "9A458993",
+    "lastKnownWriteTime" : 1580576597,
+    "last_content_update" : 1580576598000,
+    "path" : "~/MyPackage/R/ScoreDensityForStudent.R",
+    "project_path" : "R/ScoreDensityForStudent.R",
+    "properties" : {
+        "cursorPosition" : "0,15",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
