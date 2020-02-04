@@ -1,9 +1,0 @@
-{
-    "path" : "~/MyPackage",
-    "sortOrder" : [
-        {
-            "ascending" : true,
-            "columnIndex" : 2
-        }
-    ]
-}
