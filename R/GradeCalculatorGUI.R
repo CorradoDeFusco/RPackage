@@ -1,4 +1,4 @@
-#' GradeCalculatorGUI
+  #' GradeCalculatorGUI
 #'
 #' Runs a Graphical User Interface to calculate your final degree
 #'

@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1248470244",
     "id" : "3790EA5A",
-    "lastKnownWriteTime" : 1580773926,
-    "last_content_update" : 1580773926238,
+    "lastKnownWriteTime" : 1580777230,
+    "last_content_update" : 1580777230584,
     "path" : "~/MyPackage/R/GradeCalculatorGUI.R",
     "project_path" : "R/GradeCalculatorGUI.R",
     "properties" : {
-        "cursorPosition" : "9,64",
+        "cursorPosition" : "7,18",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
