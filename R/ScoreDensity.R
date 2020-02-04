@@ -7,15 +7,16 @@
 #' @importFrom plotly plot_ly
 #'
 ScoreDensity <- function(){
-DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
 
-tabella <- table(DfDSE$Score)
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
 
-Density <- as.vector(tabella)
-Scores <- names(tabella)
+  tabella <- table(DfDSE$Score)
 
-p <- plot_ly(ggplot2::diamonds, y = ~Density, color = ~Scores, type = "box")
+  Density <- as.vector(tabella)
+  Scores <- names(tabella)
 
-return(p)
+  p <- plot_ly(ggplot2::diamonds, y = ~Density, color = ~Scores, type = "box")
+
+  return(p)
 
 }

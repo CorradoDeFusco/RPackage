@@ -8,43 +8,43 @@
 #'
 StudentsDistribution <- function(){
 
-LAND_ISO <- c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR")
+  LAND_ISO <- c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR")
 
-DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
-Nations <- unique(DfDSE$Nationality)
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  Nations <- unique(DfDSE$Nationality)
 
-StdntPerNation <- vector()
+  StdntPerNation <- vector()
 
-for(Nation in Nations){
+  for(Nation in Nations){
 
-  i <- DfDSE$Nationality == Nation
+    i <- DfDSE$Nationality == Nation
 
-  StdntPerNation <- c(StdntPerNation,length(unique(DfDSE$Students[i])))
+    StdntPerNation <- c(StdntPerNation,length(unique(DfDSE$Students[i])))
 
-}
+  }
 
-MyData <- data.frame(StdntPerNation, Nations)
+  MyData <- data.frame(StdntPerNation, Nations)
 
-colnames(MyData) <- c("Students", "Nation")
+  colnames(MyData) <- c("Students", "Nation")
 
-df <- data.frame(LAND_ISO)
-colnames(df) <- "Nation"
+  df <- data.frame(LAND_ISO)
+  colnames(df) <- "Nation"
 
-total <- merge(MyData,df,by.x="Nation", by.y="Nation", all=TRUE)
-total[is.na(total)] <- 0
+  total <- merge(MyData,df,by.x="Nation", by.y="Nation", all=TRUE)
+  total[is.na(total)] <- 0
 
-g <- list(
-  scope = 'europe')
+  g <- list(
+    scope = 'europe')
 
-p <- plot_geo(total) %>%
-  add_trace(
-    z = ~Students, locations = ~Nation,
-    color = ~Students, colors = 'Purples'
-  ) %>%
-  colorbar(title = "") %>%
-  layout(geo = g
-  )
+  p <- plot_geo(total) %>%
+    add_trace(
+      z = ~Students, locations = ~Nation,
+      color = ~Students, colors = 'Purples'
+    ) %>%
+    colorbar(title = "") %>%
+    layout(geo = g
+    )
 
-return(p)
+  return(p)
 
 }

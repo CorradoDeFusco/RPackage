@@ -7,15 +7,16 @@
 #' @importFrom plotly plot_ly
 #'
 TermFreqency <- function(){
-DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
-Students<-unique(DfDSE$Student)
 
-TermFreq <- table(DfDSE$Date)
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  Students<-unique(DfDSE$Student)
 
-Density <- as.vector(TermFreq)
-Term <- names(TermFreq)
+  TermFreq <- table(DfDSE$Date)
 
-p <- plot_ly(x = ~Term, y = ~Density, type = 'scatter', mode = 'lines')
+  Density <- as.vector(TermFreq)
+  Term <- names(TermFreq)
 
-return(p)
+  p <- plot_ly(x = ~Term, y = ~Density, type = 'scatter', mode = 'lines')
+
+  return(p)
 }

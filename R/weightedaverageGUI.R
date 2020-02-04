@@ -7,6 +7,7 @@
 #' @importFrom plotly plot_ly
 #'
 weightedaverageGUI<- function (){
+
   DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
   Students<-unique(DfDSE$Student)
   p <- plot_ly(
@@ -18,5 +19,3 @@ weightedaverageGUI<- function (){
 
   return(p)
 }
-
-load
