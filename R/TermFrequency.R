@@ -7,7 +7,7 @@
 #' @importFrom plotly plot_ly
 #'
 TermFreqency <- function(){
-DfDSE <- read.csv(system.file("extdata", package = "MyPackage"))
+DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
 Students<-unique(DfDSE$Student)
 
 TermFreq <- table(DfDSE$Date)

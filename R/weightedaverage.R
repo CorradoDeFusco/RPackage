@@ -8,7 +8,7 @@
 #' @importFrom stats weighted.mean
 #'
 weightedaverage<- function (Students){
-  DfDSE <- read.csv(system.file("extdata", package = "MyPackage"))
+  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
   result<- vector()
 
   for(Student in Students){

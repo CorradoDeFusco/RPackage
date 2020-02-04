@@ -7,7 +7,7 @@
 #' @importFrom plotly plot_ly
 #'
 ScoreDensity <- function(){
-DfDSE <- read.csv(system.file("extdata", package = "MyPackage"))
+DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
 
 tabella <- table(DfDSE$Score)
 

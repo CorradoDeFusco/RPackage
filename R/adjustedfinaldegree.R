@@ -7,7 +7,7 @@
 #' @importFrom utils read.csv
 #'
 adjustedfinaldegree <- function (score){
-DfDSE <- read.csv(system.file("extdata", package = "MyPackage"))
+DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
 
 if(score < 18 | score >33)
   print("Insert a value between 18 and 33")
