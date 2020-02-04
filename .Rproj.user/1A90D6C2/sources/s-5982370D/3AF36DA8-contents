@@ -1,0 +1,45 @@
+ui <- fluidPage(
+
+  tags$head(
+    tags$link(rel = "stylesheet", type = "text/css", href = "style.css")
+  ),
+
+  titlePanel(h1("Grade Calculator", align='center')),
+
+  sidebarLayout(
+    sidebarPanel("REMARK: Use the name which is in the csv file"),
+    mainPanel(
+
+      div(
+        h1("Would you like to know your Final Grade Classification?", align='center'),
+        textInput("text", h3("Insert your ID name")),
+        submitButton("Calculate"),
+        h1(textOutput("selected_var"), align='center', id = "Voto"),
+      )
+    )
+  )
+
+)
+
+# Define server logic ----
+server <- function(input, output) {
+
+      output$selected_var <- renderText({
+
+        Students <- vector()
+        Students <- input$text
+
+        if(input$text != ""){
+        weightedaverage(Students)
+
+        }
+        else{
+          print("")
+        }
+
+  })
+
+
+}
+
+shinyApp(ui = ui, server = server)

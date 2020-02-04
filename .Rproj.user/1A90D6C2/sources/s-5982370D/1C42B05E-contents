@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://www.lancaster.ac.uk/media/lancaster-university/content-assets/images/alumni/new-alumni-website/LUJMedical02.jpg");
+
+background-repeat: repeat-x;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+	color:red;
+}
+
+#voto{
+
+  font-weight: 900;
+}
+

@@ -2,13 +2,13 @@
 % Please edit documentation in R/ScoreDensityForStudent.R
 \name{ScoreDensityForStudent}
 \alias{ScoreDensityForStudent}
-\title{Analysis scores}
+\title{ScoreDensityForStudent}
 \usage{
 ScoreDensityForStudent()
 }
 \value{
-
+plot of the score density for every student
 }
 \description{
-Takes in a dataframe and the list of students, calculates  classification
+This function reads the data into the dataframe and calculates the mean, the variance, the min/max score for every student
 }

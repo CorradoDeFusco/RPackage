@@ -1,0 +1,73 @@
+Students,Gender,Age,Nationality,Subject,Score,Date,Cfu
+Giorgia,F,24,ITA,Gtdmo,30,01/12/19,12
+Giorgia,F,24,ITA,Econometrics,30,01/12/19,12
+Giorgia,F,24,ITA,Advanced micro&macro,30,01/03/20,12
+Giorgia,F,24,ITA,Coding,30,01/03/20,12
+Giorgia,F,24,ITA,Machine,30,01/06/20,12
+Giorgia,F,24,ITA,Cybersecurity,30,01/07/20,12
+Giorgia,F,24,ITA,Algorithms,30,01/09/20,6
+Giorgia,F,24,ITA,Opt1,30,01/10/20,6
+Giorgia,F,24,ITA,Opt2,30,01/11/20,6
+Giorgia,F,24,ITA,Opt3,30,03/11/20,6
+Giorgia,F,24,ITA,Opt4,30,05/11/20,6
+Giorgia,F,24,ITA,Opt5,30,06/10/20,6
+Anna,F,25,ITA,Gtdmo,26,01/12/19,12
+Anna,F,25,ITA,Econometrics,24,01/12/19,12
+Anna,F,25,ITA,Advanced micro&macro,23,01/03/20,12
+Anna,F,25,ITA,Coding,18,01/03/20,12
+Anna,F,25,ITA,Machine,24,01/10/20,12
+Anna,F,25,ITA,Cybersecurity,21,01/11/20,12
+Anna,F,25,ITA,Algorithms,19,01/12/21,6
+Anna,F,25,ITA,Opt1,22,01/12/21,6
+Anna,F,25,ITA,Opt2,30,07/04/20,6
+Anna,F,25,ITA,Opt3,24,06/06/20,6
+Anna,F,25,ITA,Opt4,21,05/10/20,6
+Anna,F,25,ITA,Opt5,24,09/10/20,6
+Corrado,M,22,ITA,Gtdmo,23,01/12/19,12
+Corrado,M,22,ITA,Econometrics,22,01/12/19,12
+Corrado,M,22,ITA,Advanced micro&macro,26,06/05/20,12
+Corrado,M,22,ITA,Coding,22,05/06/20,12
+Corrado,M,22,ITA,Machine,20,09/03/20,12
+Corrado,M,22,ITA,Cybersecurity,30,12/04/21,12
+Corrado,M,22,ITA,Algorithms,29,01/11/21,6
+Corrado,M,22,ITA,Opt1,23,03/03/20,6
+Corrado,M,22,ITA,Opt2,25,03/03/20,6
+Corrado,M,22,ITA,Opt3,30,03/12/20,6
+Corrado,M,22,ITA,Opt4,21,06/11/20,6
+Corrado,M,22,ITA,Opt5,25,06/02/20,6
+Andrea,M,35,DEU,Gtdmo,19,01/03/20,12
+Andrea,M,35,DEU,Econometrics,26,01/03/20,12
+Andrea,M,35,DEU,Advanced micro&macro,29,06/04/20,12
+Andrea,M,35,DEU,Coding,22,06/05/20,12
+Andrea,M,35,DEU,Machine,21,05/05/20,12
+Andrea,M,35,DEU,Cybersecurity,20,01/12/20,12
+Andrea,M,35,DEU,Algorithms,20,03/09/20,6
+Andrea,M,35,DEU,Opt1,22,01/12/20,6
+Andrea,M,35,DEU,Opt2,26,06/12/21,6
+Andrea,M,35,DEU,Opt3,29,06/12/20,6
+Andrea,M,35,DEU,Opt4,22,01/06/20,6
+Andrea,M,35,DEU,Opt5,26,09/09/20,6
+Alejandra,F,45,ESP,Gtdmo,29,03/07/20,12
+Alejandra,F,45,ESP,Econometrics,28,01/06/20,12
+Alejandra,F,45,ESP,Advanced micro&macro,22,06/10/20,12
+Alejandra,F,45,ESP,Coding,,06/05/20,12
+Alejandra,F,45,ESP,Machine,28,01/12/20,12
+Alejandra,F,45,ESP,Cybersecurity,28,09/03/20,12
+Alejandra,F,45,ESP,Algorithms,20,01/07/20,6
+Alejandra,F,45,ESP,Opt1,24,06/06/20,6
+Alejandra,F,45,ESP,Opt2,,,6
+Alejandra,F,45,ESP,Opt3,28,06/12/21,6
+Alejandra,F,45,ESP,Opt4,,,6
+Alejandra,F,45,ESP,Opt5,,,6
+Gerolamo,M,22,ITA,Gtdmo,24,01/12/19,12
+Gerolamo,M,22,ITA,Econometrics,24,01/12/19,12
+Gerolamo,M,22,ITA,Advanced micro&macro,29,06/03/20,12
+Gerolamo,M,22,ITA,Coding,19,05/06/20,12
+Gerolamo,M,22,ITA,Machine,18,09/07/20,12
+Gerolamo,M,22,ITA,Cybersecurity,30,12/05/20,12
+Gerolamo,M,22,ITA,Algorithms,,,6
+Gerolamo,M,22,ITA,Opt1,30,03/07/20,6
+Gerolamo,M,22,ITA,Opt2,24,03/09/20,6
+Gerolamo,M,22,ITA,Opt3,,,6
+Gerolamo,M,22,ITA,Opt4,30,05/12/20,6
+Gerolamo,M,22,ITA,Opt5,,,6

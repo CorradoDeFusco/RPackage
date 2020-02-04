@@ -4,16 +4,14 @@
 \alias{adjustedfinaldegree}
 \title{Adjusted Final Degree Classification}
 \usage{
-adjustedfinaldegree(DfDSE, score)
+adjustedfinaldegree(score)
 }
 \arguments{
-\item{DfDSE}{it's the datframe that contains students data}
-
 \item{score}{it's one possible mark between 18 and 30 that you can take in your missing exams}
 }
 \value{
 adjusted final degree classification
 }
 \description{
-Takes in a data frame and a possible score to all the exams that you still need to do and calculates your "adjusted" final degree
+Takes a possible score to all the exams that you still need to do and calculates your "adjusted" final degree
 }

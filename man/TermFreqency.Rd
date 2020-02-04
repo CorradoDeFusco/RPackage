@@ -2,13 +2,13 @@
 % Please edit documentation in R/TermFrequency.R
 \name{TermFreqency}
 \alias{TermFreqency}
-\title{Analysis scores}
+\title{TermFrequency}
 \usage{
 TermFreqency()
 }
 \value{
-
+plot of the density of exams in a term
 }
 \description{
-Takes in a dataframe and the list of students, calculates  classification
+This function reads the data into the dataframe how many exams have been in a term
 }

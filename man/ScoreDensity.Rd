@@ -2,13 +2,13 @@
 % Please edit documentation in R/ScoreDensity.R
 \name{ScoreDensity}
 \alias{ScoreDensity}
-\title{Analysis scores}
+\title{Score Density}
 \usage{
 ScoreDensity()
 }
 \value{
-
+plot of the Score density
 }
 \description{
-Takes in a dataframe and the list of students, calculates  classification
+This function reads the data into the dataframe and calculates how many times occur a certain score
 }

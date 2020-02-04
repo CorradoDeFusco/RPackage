@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580772619672.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3790EA5A",
+    "lastKnownWriteTime" : 1580773926,
+    "last_content_update" : 1580773926238,
+    "path" : "~/MyPackage/R/GradeCalculatorGUI.R",
+    "project_path" : "R/GradeCalculatorGUI.R",
+    "properties" : {
+        "cursorPosition" : "9,64",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

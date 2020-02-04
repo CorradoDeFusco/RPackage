@@ -2,13 +2,16 @@
 % Please edit documentation in R/weightedaverage.R
 \name{weightedaverage}
 \alias{weightedaverage}
-\title{ksahdkash}
+\title{Weighted Average}
 \usage{
-weightedaverage(DfDSE, Students)
+weightedaverage(Students)
+}
+\arguments{
+\item{Students}{it's the list of students which you want to calculate the final degree classification}
 }
 \value{
-result
+final degree classification
 }
 \description{
-ksahdkash
+Takes the list of students, calculates weighted average of all the courses of the students and computes the final degree classification
 }
