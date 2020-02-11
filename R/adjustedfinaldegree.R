@@ -4,14 +4,15 @@
 #' @param score it's one possible mark between 18 and 30 that you can take in your missing exams
 #' @return adjusted final degree classification
 #' @export
-#' @importFrom utils read.csv
 #'
 adjustedfinaldegree <- function (score){
 
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  DfDSE <- MyPackage::mydata
 
-  if(score < 18 | score >33)
+  if(score < 18 | score >33){
     print("Insert a value between 18 and 33")
+    return(1)
+  }
 
   else{
     i <- is.na(DfDSE$Score)
@@ -21,7 +22,7 @@ adjustedfinaldegree <- function (score){
     Subjects<-DfDSE$Subject[i]
     CFUs<-DfDSE$Cfu[i]
     Scores <- DfDSE$Score[i]
-    VotoLaurea<-weightedaverage(Students)
+    VotoLaurea<-weightedaverage(Students,DfDSE)$degree
 
     df <- data.frame('Stdents' = Students, 'Subjects' = Subjects, 'cfu' = CFUs, 'Score'= Scores, 'AdjFinalDegree' = VotoLaurea)
     }

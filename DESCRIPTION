@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
 Imports: devtools, utils, stats, plotly, ggplot2, shiny
+Depends: R (>= 3.5.0)

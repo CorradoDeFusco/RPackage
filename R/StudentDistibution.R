@@ -10,7 +10,7 @@ StudentsDistribution <- function(){
 
   LAND_ISO <- c("AUT","BEL","BGR","HRV","CYP","CZE","DNK","EST","FIN","FRA","DEU","GRC","HUN","IRL","ITA","LVA","LTU","LUX","MLT","NLD","POL","PRT","ROU","SVK","SVN","ESP","SWE","GBR")
 
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  DfDSE <- MyPackage::mydata
   Nations <- unique(DfDSE$Nationality)
 
   StdntPerNation <- vector()

@@ -3,12 +3,11 @@
 #' This function reads the data into the dataframe how many exams have been in a term
 #' @return plot of the density of exams in a term
 #' @export
-#' @importFrom utils read.csv
 #' @importFrom plotly plot_ly
 #'
 TermFreqency <- function(){
 
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  DfDSE <- MyPackage::mydata
   Students<-unique(DfDSE$Student)
 
   TermFreq <- table(DfDSE$Date)

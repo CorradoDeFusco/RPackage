@@ -8,7 +8,7 @@
 #'
 ScoreDensityForStudent <- function(){
 
-  DfDSE <- read.csv(system.file("extdata/FileDse.csv", package = "MyPackage"))
+  DfDSE <- MyPackage::mydata
   Students<-unique(DfDSE$Student)
 
   p <- plot_ly(ggplot2::diamonds, y = ~DfDSE$Score, color = ~DfDSE$Student, type = "box")
